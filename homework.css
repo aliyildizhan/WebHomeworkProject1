@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(82, 133, 210, 0.35), rgba(82, 133, 210, 0.35)), 
+    url(https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1730627574~exp=1730631174~hmac=a121804dea150be386a89a49c52b3c2129e8a8369406223f3b2733d7d602dcba&w=740);
+     background-size:cover;
+}
+
+
+#view-port {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150vh;
+    }
+
+.header {
+    display: flex;
+    height: 125px;
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
+    url(https://img.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-grid-background_53876-129728.jpg?t=st=1730602295~exp=1730605895~hmac=6ce188ff7716ee3edce7a975f2d69da9ac6c0e03e40b1549b2576224f48b945e&w=1380);
+    background-size:cover;
+    background-position-y: 60%;
+}
+
+.white-div {
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+#main-view {
+    display: flex;
+    height: 100%;
+}
+
+#currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.currency-item {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 15%;
+    width: 60%;
+    align-items: center;
+    height: fit-content;
+    background-color: rgba(50, 64, 134, 0.479);
+}
+
+.main-content {
+    width: 60%;
+    overflow-y:scroll;
+    height: 110vh;
+}
+
+.main-head {
+    text-align: center;
+}
+
+#account-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 20%;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 25%;
+    width: 70%;
+    border: 1px black solid;
+    background-color: rgba(50, 64, 134, 0.479);
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 25%;
+    width: 70%;
+    border: 1px black solid;
+    background-color: rgba(50, 64, 134, 0.479);
+}
+
+.previous-transactions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    height: 25%;
+    width: 70%;
+    border: 1px black solid;
+    background-color: rgba(50, 64, 134, 0.479);
+}
+
+.transactions {
+    border-radius: 10px;
+    border: 0.8px black solid;
+    width: 80%;
+    height: 18%;
+}
+
+.footer {
+    height: 200px;
+    background-color: rgba(28, 45, 202, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 0.5px black solid;
+    background-color: rgba(140, 149, 222, 0.736);
+    height: 100px;
+    width: 20%;
+}
+
+
