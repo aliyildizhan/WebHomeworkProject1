@@ -1,13 +1,15 @@
 body {
-    margin: 0;
+    /*background of web site*/
+    margin: 0; /*overrides of browser's default value to look nicer*/
     min-height:100%;
-    background:linear-gradient(0deg, rgba(82, 133, 210, 0.35), rgba(82, 133, 210, 0.35)), 
+    background:linear-gradient(0deg, rgba(82, 133, 210, 0.35), rgba(82, 133, 210, 0.35)), /*background image*/
     url(https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1730627574~exp=1730631174~hmac=a121804dea150be386a89a49c52b3c2129e8a8369406223f3b2733d7d602dcba&w=740);
      background-size:cover;
 }
 
 
 #view-port {
+    /*the outer flex box*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,6 +17,7 @@ body {
     }
 
 .header {
+    /*header properties*/
     display: flex;
     height: 125px;
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
@@ -24,6 +27,7 @@ body {
 }
 
 .white-div {
+    /*white line under the header to give more lookable apperance*/
     height: 8%;
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
@@ -33,11 +37,14 @@ body {
 }
 
 #main-view {
+    /*view flex box where diveded 3 parts*/
     display: flex;
     height: 100%;
 }
 
 #currency {
+    /*the most left side of the view
+      shows currency*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -48,6 +55,8 @@ body {
 }
 
 .currency-item {
+    /*items in currency
+      displayed flex to align image and text*/
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -59,16 +68,21 @@ body {
 }
 
 .main-content {
+    /*center item of view
+      where main content displayed*/
     width: 60%;
     overflow-y:scroll;
     height: 110vh;
 }
 
 .main-head {
+    /*head of main content*/
     text-align: center;
 }
 
 #account-information {
+    /*the most right side of view
+      has account informations*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +93,7 @@ body {
 }
 
 .user {
+    /*displays user's name and picture*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +105,7 @@ body {
 }
 
 .balance {
+    /*displays user's balance*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +118,7 @@ body {
 }
 
 .previous-transactions {
+    /*displayes previous transactions of user*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -129,6 +146,7 @@ body {
 }
 
 .footer-item {
+    /*comminacation info*/
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -1,5 +1,7 @@
+<!--htmlt tag-->
 <!DOCTYPE html>
 <html lang="en">
+<!--head tag-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +9,18 @@
     <link rel="stylesheet" href="homework.css">
 </head>
 <body>
-
+    <!--most outer flex box-->
     <div id="view-port">
+        <!--header tag-->
         <header class="header">
-            <img src="styless/bank_logo.png" alt="bank logo" width="160px" height="120px">
+            <img src="styless/bank_logo.png" alt="bank logo" width="160px" height="120px">  <!--bank logo-->
         </header>
+        <!--2. outer flex box for dividing viewport into 3 parts-->
         <div id="main-view">
-            <div class="white-div"></div>
+            <div class="white-div"></div>   <!--white line, i think looks ok-->
+            <!--left flex box where currency displayed-->
             <div id="currency">
+                <!--currency items displayed in currency flex box-->
                 <div class="currency-item">
                     <div>
                         <img src="styless/currency.png" alt="dollar sign" width="100px" height="100px">
@@ -43,12 +49,15 @@
                 </div>
 
             </div>
-
+            
+            <!--The part where main content is-->
             <div class="main-content">
+                <!--head line of main content-->
                 <div class="main-head">
                     <h1>
                         WELCOME YOUR BANK
                     </h1>
+                <!--contents in main content-->
                 </div>
 
                     <p>
@@ -100,18 +109,22 @@
                 
 
             </div>
-
+            
+            <!--right flex box where account information displayed-->
             <div id="account-information">
+                <!--name and picture of user-->
                 <div class="user">
                     <img src="styless/profile_picture.png" alt="profile picture" width="100px" height="100px">
                     <h1>Ahmet Can</h1>
                 </div>
+                <!--balance of user-->
                 <div class="balance">
                     <div>
                         <h1>13.000 TL</h1>
                         <img src="styless/wallet.png" alt="wallet picture" width="150px" height="150px">
                     </div>
                 </div>
+                <!--last transactions of user-->
                 <div class="previous-transactions">
                     <div class="transactions"></div>
                     <div class="transactions"></div>
@@ -120,6 +133,7 @@
                 </div>
             </div>
         </div>
+        <!--footer where communication methods displayed-->
         <footer class="footer">
             <div class="footer-item">
                 <img src="styless/mail.png" alt="mail icon" width="100px" height="100px">
